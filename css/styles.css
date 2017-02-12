@@ -5,3 +5,16 @@ li[ui-sref]:hover {
   padding-left: 5px;
   padding-right: 5px;
 }
+
+.back{
+	font-weight: bold;
+	color: blue;
+}
+
+.back:hover{
+	display: inline-block;
+  cursor: pointer;
+  border: solid black 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
