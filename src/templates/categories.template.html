@@ -1,0 +1,6 @@
+<ul>
+  <h1>Menu categories (please click to show menu items):</h1>
+  <li ng-repeat="category in allCategories.categories" ui-sref="items({name: category.short_name})">
+   {{ category.name }}
+  </li>
+</ul>
